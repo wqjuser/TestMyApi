@@ -1,0 +1,6 @@
+# TestMyApi
+三层listview解决方案
+##
+由于公司开发界面视图包含三层listview的效果，所以一开始采用三层listview的嵌套但是由于最内层的数据需要点击效果
+，并且界面还需要用户可见时刷新数据，导致三层listview的各种bug出现，所以选择了单层listview。在这个listview中放置layout来容纳
+内部listview的视图效果，通过addview的方法来显示数据。
